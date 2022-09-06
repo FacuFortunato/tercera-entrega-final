@@ -181,7 +181,10 @@ footer {
 @media screen and (min-width: 400px) {
   .contenedor {
     display: grid;
-    grid-template-areas: "productos-1 productos-1" "productos-2 productos-2" "productos-3 productos-3" "cajas cajas"; }
+    grid-template-areas: "productos-1 productos-1"
+ "productos-2 productos-2"
+ "productos-3 productos-3"
+ "cajas cajas"; }
   .info-productos div ul {
     list-style-type: none;
     display: grid;
@@ -198,7 +201,7 @@ footer {
         height: 45%; }
   .productos-2 {
     display: grid;
-    grid-area: productos-1;
+    grid-area: productos-2;
     grid-template-columns: 1fr 1fr; }
     .productos-2 div {
       height: 350px; }
@@ -206,7 +209,7 @@ footer {
         height: 45%; }
   .productos-3 {
     display: grid;
-    grid-area: productos-1;
+    grid-area: productos-3;
     grid-template-columns: 1fr 1fr; }
     .productos-3 div {
       height: 350px; }
@@ -229,7 +232,10 @@ footer {
     height: 400px; }
   .contenedor {
     display: grid;
-    grid-template-areas: "productos-1" "productos-2" "productos-3" "cajas"; }
+    grid-template-areas: "productos-1"
+ "productos-2"
+ "productos-3"
+ "cajas"; }
     .contenedor .productos-1 {
       grid-template-columns: 1fr 1fr 1fr; }
     .contenedor .productos-2 {
